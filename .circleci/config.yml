@@ -16,7 +16,13 @@ jobs:
       # EXTRA_CMD: ""
       # PB_ENGLISH: 'true'
       CHANGELOG: |
-        - Intail Build
+        -Bringup 3.0 
+        - Source side changes 
+        - Fully Redesigned UI 
+        - New Android like Power Menu (Activated via power key hold) 
+        - Flashlight toggled by Vol up(+) on hold 
+        - Flashlight toggle on Lockscreen 
+        - Etc.
     working_directory: /home/builder/pitchblack
     steps:
       - run:
